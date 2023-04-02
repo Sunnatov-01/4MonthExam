@@ -81,7 +81,7 @@ export default class App extends Component {
       })
     }
     isTrue=()=>{
-      if(tthis.state.data[randomNumber].symbol_title === this.state.data[this.randomNumber]){
+      if(this.state.data[this.state.randomNumber].symbol_title === this.state.data[this.randomNumber]){
         console.log('its true');
       }
     }
